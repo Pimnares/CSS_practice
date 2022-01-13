@@ -1,0 +1,190 @@
+body {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Kanit', sans-serif;
+  color: black;
+}
+
+td,
+th {
+  text-align: left;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+.logo {
+  display: inline-flex;
+}
+
+.navbar {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.nav-img {
+  padding: 10px;
+  position: relative;
+}
+
+.nav-item {
+  font-weight: 900;
+  position: relative;
+  margin-left: 80px;
+  justify-content: space-evenly;
+}
+.detail {
+  padding: 0 40px;
+  margin-left: 300px;
+}
+
+.header {
+  padding-top: 30px;
+  margin-left: 350px;
+}
+
+.del {
+  margin: 90px 20px;
+}
+
+.file-icon {
+  position: absolute;
+  display: block;
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 30px 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.bg {
+  margin: 30px 0;
+}
+
+.card-text {
+  color: white;
+  position: absolute;
+  display: block;
+  padding: 8px;
+  margin: 60px 15px;
+}
+
+.card-body {
+  margin: 40px 0;
+}
+
+.card {
+  top: 50%;
+  text-align: justify;
+  width: 80%px;
+  margin-top: 10px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  border-style: none;
+}
+
+.column {
+  flex-direction: column;
+  flex: 1;
+  padding: 0;
+}
+
+.content-column {
+  height: 100px;
+  width: 50%;
+}
+
+.coupon {
+  transform: rotate(90deg);
+  padding-right: 0%;
+}
+
+.btn {
+  color: #73cdbb;
+  border: 2px solid #73cdbb;
+  border-radius: 8px;
+  width: 100px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #73cdbb;
+  border: 2px solid #73cdbb;
+}
+
+.promo {
+  position: relative;
+  box-sizing: content-box;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  background-color: transparent;
+  padding: 5px;
+}
+
+#level {
+  border: none;
+  border-radius: 6px;
+  padding: 2px;
+  color: #cfcfcf;
+}
+
+#dropdownMenuButton {
+  color: #848484;
+}
+
+.subtotal {
+  font-weight: lighter;
+  color: lightgray;
+  margin: 20px;
+}
+
+.total-sub {
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.login-btn {
+  flex-grow: 2;
+  width: 500px;
+  background-color: #0edbb6;
+  color: black;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0px 3px 10px #0edbb6;
+}
+
+.total-payment {
+  font-weight: bolder;
+  color: #73cdbb;
+  font-size: 25px;
+  text-align: right;
+}
+
+.apply-btn {
+  padding: 25px;
+  text-align: center;
+}
+
+.info-card {
+  box-sizing: content-box;
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  border: 1px;
+  padding: 5px;
+  padding-bottom: 20px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
